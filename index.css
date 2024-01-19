@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    Font size: 15px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+body{
+    background-color: hsla(0, 0%, 100%, 0.75);
+    min-height: 100vh;
+}
+main{
+    width: 80%;
+    border-radius: 10px;
+    margin: 4rem auto;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2rem;
+    border-radius: 5px 5px 0 0;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2rem;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2rem;
+    border-radius: 0 0 5px 5px;
+}
+img{
+    margin-bottom: 1rem;
+}
+h2{
+    margin-bottom: 1rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Big Shoulders Display';
+    letter-spacing: -.1rem;
+}
+p{
+    margin-bottom: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+}
+@media (width > 650px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+    min-height: 60vh;
+    }
+    button{
+    margin-top: 50px;
+    }
+    .sedans{
+        border-radius: 5px 0 0 5px;
+    }
+    .luxury{
+        border-radius: 0 5px 5px 0;
+    }
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
