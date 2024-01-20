@@ -53,6 +53,25 @@ button{
     border-radius: 50px;
     border: none;
 }
+.one:hover{
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid white;
+    color: white;
+}
+.two:hover{
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid white;
+    color: white;
+}
+.three:hover{
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid white;
+    color: white;
+}
+
 @media (width > 650px){
     body{
         display: flex;
